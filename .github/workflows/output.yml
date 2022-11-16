@@ -7,4 +7,4 @@ jobs:
       - name: Output context
         run: echo "${{ toJSON(github) }}"
       - name: Output Env
-        run: echo "${{ env }}"
+        run: echo "${{ toJSON(env) }}"
